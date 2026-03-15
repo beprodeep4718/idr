@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" width="360" height="80" style="background:#0D0D0D">
+  <!-- Isometric cube: top face (orange) left face (dark) right face (mid-dark) -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="#FF6B2B"/>
+  <polygon points="12,24 40,40 40,64 12,48" fill="#1C1C1C"/>
+  <polygon points="68,24 40,40 40,64 68,48" fill="#2E2E2E"/>
+  <!-- Subtle inner grid lines on top face for "structure" feel -->
+  <line x1="40" y1="8" x2="40" y2="40" stroke="#FF8C55" stroke-width="0.6" opacity="0.35"/>
+  <line x1="26" y1="16" x2="54" y2="32" stroke="#FF8C55" stroke-width="0.6" opacity="0.35"/>
+  <!-- Bright orange top-right edge highlight -->
+  <line x1="40" y1="8" x2="68" y2="24" stroke="#FFB380" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- IDR bold wordmark -->
+  <text x="92" y="36" font-family="'Trebuchet MS', 'Lucida Grande', sans-serif" font-weight="700" font-size="24" fill="#FFFFFF" letter-spacing="4">IDR</text>
+
+  <!-- Thin orange rule -->
+  <rect x="92" y="43" width="228" height="1" fill="#FF6B2B" opacity="0.8"/>
+
+  <!-- Full name subtitle -->
+  <text x="92" y="59" font-family="'Gill Sans', 'Century Gothic', 'Trebuchet MS', sans-serif" font-weight="400" font-size="10" fill="#B0B0B0" letter-spacing="2.2">INSTITUTE OF DIGITAL RISK</text>
+</svg>
